@@ -13,7 +13,7 @@ function Get-ValidTime ($Prompt) {
 while ($true) {
     Clear-Host
     Write-Host "$e[1;38;5;51m========================================$e[0m"
-    Write-Host "$e[1;38;5;213m           AutoDM Dashboard             $e[0m"
+    Write-Host "$e[1;38;5;213m            AutoDM Dashboard            $e[0m"
     Write-Host "$e[1;38;5;51m========================================$e[0m`n"
     
     $tLight = Get-ScheduledTask -TaskName "AutoDM - Light Mode" -ErrorAction SilentlyContinue
